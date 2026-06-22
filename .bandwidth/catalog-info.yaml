@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  schemaVersion: v1.0.0
+  name: action-test-location
+  description: Links to additional entities in the action-test repository.
+  annotations:
+    github.com/project-slug: Bandwidth/action-test
+spec:
+  targets:
+    - ./component.yaml
